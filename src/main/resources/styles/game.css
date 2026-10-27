@@ -1,0 +1,286 @@
+/* DSA RPG - shared styles. Font sizes are relative (em) so the
+   text-size setting scales every screen. */
+
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.screen {
+    -fx-background-color: linear-gradient(to bottom, #1F3A2A, #11231A);
+}
+
+.card {
+    -fx-background-color: #2D4A36;
+    -fx-background-radius: 12;
+    -fx-border-color: #607B57;
+    -fx-border-radius: 12;
+    -fx-border-width: 1.5;
+}
+
+.card-locked {
+    -fx-background-color: #2A352D;
+    -fx-border-color: #46564A;
+}
+
+.panel-light {
+    -fx-background-color: #E8F0DF;
+    -fx-background-radius: 16;
+    -fx-border-color: #D7B56D;
+    -fx-border-radius: 16;
+    -fx-border-width: 2;
+}
+
+.title {
+    -fx-font-size: 1.9em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F3D27A;
+}
+
+.title-dark {
+    -fx-font-size: 1.8em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #263D2D;
+}
+
+.subtitle {
+    -fx-font-size: 1.0em;
+    -fx-text-fill: #E8F0DF;
+}
+
+.subtitle-dark {
+    -fx-font-size: 1.0em;
+    -fx-text-fill: #405744;
+}
+
+.card-title {
+    -fx-font-size: 1.1em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F3D27A;
+}
+
+.card-text {
+    -fx-font-size: 0.9em;
+    -fx-text-fill: #E8F0DF;
+}
+
+.badge-done {
+    -fx-font-size: 0.8em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1F3A2A;
+    -fx-background-color: #8FD6A0;
+    -fx-background-radius: 10;
+    -fx-padding: 2 8 2 8;
+}
+
+.badge-next {
+    -fx-font-size: 0.8em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #243B2A;
+    -fx-background-color: #F3D27A;
+    -fx-background-radius: 10;
+    -fx-padding: 2 8 2 8;
+}
+
+.badge-locked {
+    -fx-font-size: 0.8em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #E8F0DF;
+    -fx-background-color: #56645A;
+    -fx-background-radius: 10;
+    -fx-padding: 2 8 2 8;
+}
+
+.error-text {
+    -fx-text-fill: #B00020;
+    -fx-font-weight: bold;
+}
+
+.hint-text {
+    -fx-text-fill: #405744;
+    -fx-font-size: 0.85em;
+}
+
+.hint-text-light {
+    -fx-text-fill: #BCC8B6;
+    -fx-font-size: 0.85em;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-background-color: #D7B56D;
+    -fx-text-fill: #243B2A;
+    -fx-background-radius: 8;
+    -fx-padding: 9 18 9 18;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #F3D27A;
+}
+
+.button:focused {
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2.5;
+    -fx-border-radius: 8;
+}
+
+.button:disabled {
+    -fx-background-color: #56645A;
+    -fx-text-fill: #D0D6CF;
+    -fx-opacity: 1;
+}
+
+.button-primary {
+    -fx-background-color: #355E3B;
+    -fx-text-fill: white;
+}
+
+.button-primary:hover {
+    -fx-background-color: #437549;
+}
+
+.button-quiet {
+    -fx-background-color: transparent;
+    -fx-text-fill: #E8F0DF;
+    -fx-border-color: #8FA88A;
+    -fx-border-radius: 8;
+}
+
+.button-quiet:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.12);
+}
+
+.text-field, .password-field, .combo-box {
+    -fx-background-radius: 8;
+    -fx-border-color: #8FA88A;
+    -fx-border-radius: 8;
+    -fx-padding: 7 10 7 10;
+}
+
+.text-field:focused, .password-field:focused, .combo-box:focused {
+    -fx-border-color: #355E3B;
+    -fx-border-width: 2.5;
+}
+
+.check-box {
+    -fx-font-size: 1.0em;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.progress-bar > .track {
+    -fx-background-color: #1B2B21;
+    -fx-background-radius: 6;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: #6FC3E8;
+    -fx-background-radius: 6;
+    -fx-padding: 0.4em;
+}
+
+.toolbar-label {
+    -fx-text-fill: #F6EFDD;
+    -fx-font-weight: bold;
+}
+
+.toolbar {
+    -fx-background-color: #1B2F22;
+}
+
+.toolbar .button {
+    -fx-padding: 5 12 5 12;
+    -fx-font-size: 0.9em;
+}
+
+.pause-box {
+    -fx-background-color: #263D2D;
+    -fx-background-radius: 16;
+    -fx-border-color: #D7B56D;
+    -fx-border-width: 2;
+    -fx-border-radius: 16;
+}
+
+.pause-title {
+    -fx-font-size: 1.8em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F3D27A;
+}
+
+/* ---------- High contrast ---------- */
+
+.high-contrast .screen {
+    -fx-background-color: #000000;
+}
+
+.high-contrast .card, .high-contrast .card-locked {
+    -fx-background-color: #000000;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2;
+}
+
+.high-contrast .panel-light {
+    -fx-background-color: #000000;
+    -fx-border-color: #FFFF33;
+}
+
+.high-contrast .title, .high-contrast .title-dark, .high-contrast .card-title {
+    -fx-text-fill: #FFFF33;
+}
+
+.high-contrast .subtitle, .high-contrast .subtitle-dark, .high-contrast .card-text,
+.high-contrast .hint-text, .high-contrast .hint-text-light, .high-contrast .label {
+    -fx-text-fill: #FFFFFF;
+}
+
+.high-contrast .error-text {
+    -fx-text-fill: #FF8080;
+}
+
+.high-contrast .button {
+    -fx-background-color: #FFFF33;
+    -fx-text-fill: #000000;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+}
+
+.high-contrast .button:disabled {
+    -fx-background-color: #444444;
+    -fx-text-fill: #FFFFFF;
+}
+
+.high-contrast .button-primary {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #000000;
+}
+
+.high-contrast .button-quiet {
+    -fx-background-color: #000000;
+    -fx-text-fill: #FFFFFF;
+}
+
+.high-contrast .pause-box {
+    -fx-background-color: #000000;
+    -fx-border-color: #FFFFFF;
+}
+
+.high-contrast .toolbar {
+    -fx-background-color: #000000;
+}
+
+.high-contrast .badge-done, .high-contrast .badge-next {
+    -fx-background-color: #FFFF33;
+    -fx-text-fill: #000000;
+}
+
+.high-contrast .badge-locked {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #000000;
+}
